@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+body{
+    background-color: hsl(0deg 0% 7.84%);
+
+}
+.container{
+    background-color: hsl(0deg 0% 12.16%);
+    border: 1px solid hsl(0deg 0% 12.16%);
+    border-radius: 10px;
+    position: fixed;
+    inset: 0px;
+    width: 349px;
+    height: 680px ;
+    max-width: 100vw;
+    max-height: 100dvh;
+    margin: auto;
+  
+}
+
+.favicon{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: 50px auto;
+    display: block;
+    margin-bottom: 0px;
+}
+h3{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+}
+.location{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    color: hsl(72.41deg 62.23% 45.69%);
+    text-align: center;
+}
+.bio {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+}
+
+.buttons{
+    background-color: hsl(0deg 0% 20%);
+    border: 1px solid hsl(0deg 0% 12.16%);
+    border-radius: 10px;
+    width: 300px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+h5{
+    font-family: "Inter", sans-serif;
+    color: #ffffff;
+    text-align: center;
+}
+.buttons:hover{
+    background-color: hsl(72.41deg 62.23% 45.69%);
+    color: #ffffff;
+    cursor: pointer;
+}
+
